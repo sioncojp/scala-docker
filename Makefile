@@ -9,5 +9,5 @@ all: ## run
 build: ## docker build
 	@sbt docker:publishLocal
 
-run: ## docker起動
+run: ## docker run
 	@docker run --rm scala-docker
